@@ -6,8 +6,8 @@ import {useAuthState} from 'react-firebase-hooks/auth'
 import Chat from "./Components/Chat";
 
 const style ={
-  appContainer: 'max-w-[728px] mx-auto text-center',
-  sectionContainer: 'flex flex-col h-[90vh] bg-gray-100 mt-10 shadow-x1 border relative',
+  appContainer: 'max-w-[600px] mx-auto text-center',
+  sectionContainer: 'flex flex-col h-[90vh] bg-gray-100 mt-10 shadow-x1 border relative rounded-3xl',
 }
 
 function App() {

@@ -15,10 +15,12 @@ const googleSignIn = () => {
 }
 
 
-export default function SignIn() {
+const SignIn = () => {
   return (
     <div className={style.wrapper}>
         <GoogleButton onClick={googleSignIn}/>
     </div>
   )
 }
+
+export default SignIn
